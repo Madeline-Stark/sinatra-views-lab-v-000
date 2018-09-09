@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-    <% date = DateTime.new %>
+    <% date = DateTime.strptime("%m/%d/%Y") %>
     <body>
-        <h1>The date is <%=date.strftime(%A %m %j %Y)%>.</h1>
+        <h1>The date is <%=date%>.</h1>
     </body>
 </html>
